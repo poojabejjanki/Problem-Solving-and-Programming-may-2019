@@ -1,0 +1,58 @@
+    1  git --version
+    2  git --help
+    3  pwd
+    4  ls
+    5  cd PythonNotebooks
+    6  pwd
+    7  ls
+    8  cd ..
+    9  cd Desktop
+   10  cd problem\ solving\ and\ programming/
+   11  mkdir git
+   12  ls
+   13  pwd
+   14  cd git
+   15  pwd
+   16  git --version
+   17  git --config
+   18  git config
+   19  git config --list
+   20  git config user.name
+   21  git config --local user.name "poojabejjanki"
+   22  git config --global user.name "poojabejjanki"
+   23  git config --global user.email poojasr407@gmail.com
+   24  git config user.name
+   25  git config user.email
+   26  touch file1.txt
+   27  ls
+   28  git init
+   29  git ststus
+   30  git status
+   31  git add file1.txt
+   32  git status
+   33  git commit -m "first file commit"
+   34  git status
+   35  echo "data in line1" > file1.txt
+   36  echo "data in line1" 
+   37  cat file1.txt
+   38  git  add file1.txt
+   39  git add file1.txt
+   40  git commit -m "file1 second commit"
+   41  git status
+   42  git log
+   43  touch file{2..10}.txt
+   44  ls
+   45  git status
+   46  git add file{2..10}.txt
+   47  git status
+   48  git reset HEAD file{2..10}.txt
+   49  git status
+   50  git add file{2..10}.txt
+   51  git status
+   52  git commit -m "file2 to 10 commit"
+   53  git log
+   54  git clone https://github.com/Akash-Sinha/Gitam-Skill-Enhancement-May-2019/tree/master/PythonProgramming/NotebookTemplate
+   55  git clone https://github.com/Akash-Sinha/Gitam-Skill-Enhancement-May-2019
+   56  history 10
+   57  history 100>git commands.txt
+   58  history 100 > gitcommands.txt
